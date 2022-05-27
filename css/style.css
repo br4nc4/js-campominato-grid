@@ -1,0 +1,14 @@
+:root{
+    --cell-size: 50px;
+}
+
+#container-griglia{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cella{
+    width:  var(--cell-size);
+    height: var(--cell-size);
+    border: 1px solid black;
+}
