@@ -32,8 +32,7 @@ function creaCella (xCella, yCella){
         cella.innerText = `${i}`
 
         cella.addEventListener("click", function(){
-            this.classList.add("coloreCella");
-            this.classList.add("coloreTesto")
+            this.classList.add("colorOnClick")
         })
 
         containerGriglia.append(cella);        
