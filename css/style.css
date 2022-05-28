@@ -15,3 +15,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.coloreCella{
+    background-color:rgb(100,148,243);
+}
+
+.coloreTesto{
+    color: white;
+}

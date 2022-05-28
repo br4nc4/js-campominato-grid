@@ -4,6 +4,7 @@ const containerGriglia = document.getElementById("container-griglia");
 //in ordine crescente senza doppioni
 //NON HO TOVATO IL MODO DI AGGIUNGERE I NUMERI ALLE CELLE
 //CON QUESTA FUNZIONE.
+
 /* function generateOrdinatedNumbers(){ 
     const max = 100; 
     const random = []; 
@@ -29,6 +30,11 @@ function creaCella (xCella, yCella){
         cella.classList.add("cella");
         
         cella.innerText = `${i}`
+
+        cella.addEventListener("click", function(){
+            this.classList.add("coloreCella");
+            this.classList.add("coloreTesto")
+        })
 
         containerGriglia.append(cella);        
     }
